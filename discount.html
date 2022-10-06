@@ -43,14 +43,14 @@
                 var baseValue = document.getElementById("baseAmount").value;
                 var discountValue = document.getElementById("discountValue").value;
                     if(document.getElementById("mutiply").checked){
-                        document.getElementById("result1").innerHTML="Amount*discount="+baseValue*discountValue
+                        document.getElementById("result1").innerHTML="Amount*discount= "+baseValue*discountValue
                     }
                     else if(document.getElementById("divide").checked){
                         
-                        document.getElementById("result1").innerHTML="Amount/discount"+baseValue/discountValue
+                        document.getElementById("result1").innerHTML="Amount/discount= "+baseValue/discountValue
                     }
                     else if(document.getElementById("exponent").checked){
-                        document.getElementById("result1").innerHTML="Amount*discount"+Math.pow(baseValue,discountValue)
+                        document.getElementById("result1").innerHTML="Amount*discount= "+Math.pow(baseValue,discountValue)
                     }
             }
             function discount (){
